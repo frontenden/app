@@ -1,0 +1,16 @@
+$break-320:320px;
+$break-480:480px;
+$break-568:568px;
+$break-768:768px;
+$break-960:960px;
+
+@mixin breakMax($size, $type:max-width) {
+  @media only screen and ($type: $size) {
+    @content;
+  }
+}
+@mixin breakMin($size, $type:min-width) {
+  @media only screen and ($type: $size) {
+    @content;
+  }
+}

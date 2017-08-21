@@ -1,0 +1,18 @@
+{
+  "name": "Scratch",
+  "version": "1.0.0",
+  "description": "Basic setup to start a new project",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "dev"
+  },
+  "author": "Frontenden",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.10.1",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.1",
+    "gulp-util": "^3.0.7",
+    "vinyl-ftp": "^0.4.5"
+  }
+}

@@ -1,0 +1,68 @@
+html, html a {
+    -webkit-font-smoothing: antialiased !important;
+}
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.4;
+    color: $black;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 70px;
+    margin: 0 0 1rem 0;
+    color: inherit;
+    font-size: 7vw;    
+    margin: 0 0 1rem 0;
+    line-height: 1;
+    @include breakMin($break-960) {
+        font-size: 70px;
+    }
+    @include breakMax($break-768) {
+        font-size: 50px;
+    }
+    @include breakMax($break-568) {
+        font-size: 30px;
+    }
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 20px;
+    margin: 0 0 2rem 0;
+    color: inherit;
+    font-size: 4vw;
+    margin: 0 0 2rem 0;
+    line-height: 1;
+    @include breakMin($break-960) {
+        font-size: 40px;
+    }
+    @include breakMax($break-768) {
+        font-size: 30px;
+    }
+    @include breakMax($break-568) {
+        font-size: 20px;
+        margin: 0 0 1rem 0;
+    }
+}
+
+h3 {
+    font-size: 3vw;
+    margin: 0 0 1rem 0;
+    line-height: 1;
+    color: inherit;
+    @include breakMin($break-960) {
+        font-size: 24px;
+    }
+    @include breakMax($break-768) {
+        font-size: 20px;
+    }
+    @include breakMax($break-568) {
+        font-size: 16px;
+    }
+}
+
+a {
+    color: $linkColor;
+}
